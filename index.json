@@ -1,0 +1,275 @@
+{
+  "name": "Open BIM Library",
+  "libraries": [
+    {
+      "key": "general",
+      "file": "ifcx/general.ifcx",
+      "names": {
+        "nl": "algemeen",
+        "en": "general",
+        "de": "allgemein",
+        "fr": "général"
+      },
+      "about": "The library every project starts with: materials, build-ups, linear and system types, a generic object of each group, NL-SfB codes, drawing sets and view templates.",
+      "source": "Open BIM Suite (OpenAEC Foundation), LGPL-3.0-or-later",
+      "counts": {
+        "materials": 30,
+        "buildups": 30,
+        "linear_types": 10,
+        "system_types": 30,
+        "object_types": 21,
+        "drawing_sets": 4,
+        "view_templates": 20
+      },
+      "lod": [
+        22,
+        39,
+        19,
+        11
+      ]
+    },
+    {
+      "key": "nl",
+      "file": "ifcx/nl.ifcx",
+      "names": {
+        "nl": "Nederland",
+        "en": "the Netherlands",
+        "de": "Niederlande",
+        "fr": "Pays-Bas"
+      },
+      "about": "Dutch materials and types: the INB template, the materials, timber sizes, concrete sections, walls and floors of Project Ocondat, and usual Dutch layered build-ups.",
+      "source": "INB template and Project Ocondat (OpenAEC Foundation), LGPL-3.0; layered build-ups: Open BIM Suite",
+      "counts": {
+        "materials": 126,
+        "buildups": 118,
+        "linear_types": 68,
+        "system_types": 0,
+        "object_types": 0,
+        "drawing_sets": 0,
+        "view_templates": 0
+      },
+      "lod": [
+        18,
+        168,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "nl-objects-architecture",
+      "file": "ifcx/nl-objects-architecture.ifcx",
+      "names": {
+        "nl": "objecten bouwkundig",
+        "en": "objects architecture",
+        "de": "objects architecture",
+        "fr": "objects architecture"
+      },
+      "about": "Generic objects of usual Dutch sizes: one at LOD 200 per kind and its usual sizes at LOD 300.",
+      "source": "Open BIM Suite (OpenAEC Foundation), LGPL-3.0-or-later",
+      "counts": {
+        "materials": 1,
+        "buildups": 0,
+        "linear_types": 0,
+        "system_types": 0,
+        "object_types": 146,
+        "drawing_sets": 0,
+        "view_templates": 0
+      },
+      "lod": [
+        17,
+        129,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "nl-objects-electrical",
+      "file": "ifcx/nl-objects-electrical.ifcx",
+      "names": {
+        "nl": "objecten elektra en verlichting",
+        "en": "objects electrical and lighting",
+        "de": "objects electrical and lighting",
+        "fr": "objects electrical and lighting"
+      },
+      "about": "Generic objects of usual Dutch sizes: one at LOD 200 per kind and its usual sizes at LOD 300.",
+      "source": "Open BIM Suite (OpenAEC Foundation), LGPL-3.0-or-later",
+      "counts": {
+        "materials": 0,
+        "buildups": 0,
+        "linear_types": 0,
+        "system_types": 0,
+        "object_types": 98,
+        "drawing_sets": 0,
+        "view_templates": 0
+      },
+      "lod": [
+        22,
+        76,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "nl-objects-heating",
+      "file": "ifcx/nl-objects-heating.ifcx",
+      "names": {
+        "nl": "objecten verwarming en koeling",
+        "en": "objects heating and cooling",
+        "de": "objects heating and cooling",
+        "fr": "objects heating and cooling"
+      },
+      "about": "Generic objects of usual Dutch sizes: one at LOD 200 per kind and its usual sizes at LOD 300.",
+      "source": "Open BIM Suite (OpenAEC Foundation), LGPL-3.0-or-later",
+      "counts": {
+        "materials": 0,
+        "buildups": 0,
+        "linear_types": 0,
+        "system_types": 0,
+        "object_types": 167,
+        "drawing_sets": 0,
+        "view_templates": 0
+      },
+      "lod": [
+        20,
+        147,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "nl-objects-interior",
+      "file": "ifcx/nl-objects-interior.ifcx",
+      "names": {
+        "nl": "objecten inrichting",
+        "en": "objects interior",
+        "de": "objects interior",
+        "fr": "objects interior"
+      },
+      "about": "Generic objects of usual Dutch sizes: one at LOD 200 per kind and its usual sizes at LOD 300.",
+      "source": "Open BIM Suite (OpenAEC Foundation), LGPL-3.0-or-later",
+      "counts": {
+        "materials": 0,
+        "buildups": 0,
+        "linear_types": 0,
+        "system_types": 0,
+        "object_types": 140,
+        "drawing_sets": 0,
+        "view_templates": 0
+      },
+      "lod": [
+        33,
+        107,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "nl-objects-plumbing",
+      "file": "ifcx/nl-objects-plumbing.ifcx",
+      "names": {
+        "nl": "objecten water en afvoer",
+        "en": "objects plumbing and drainage",
+        "de": "objects plumbing and drainage",
+        "fr": "objects plumbing and drainage"
+      },
+      "about": "Generic objects of usual Dutch sizes: one at LOD 200 per kind and its usual sizes at LOD 300.",
+      "source": "Open BIM Suite (OpenAEC Foundation), LGPL-3.0-or-later",
+      "counts": {
+        "materials": 0,
+        "buildups": 0,
+        "linear_types": 0,
+        "system_types": 0,
+        "object_types": 58,
+        "drawing_sets": 0,
+        "view_templates": 0
+      },
+      "lod": [
+        20,
+        38,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "nl-objects-safety",
+      "file": "ifcx/nl-objects-safety.ifcx",
+      "names": {
+        "nl": "objecten brand en beveiliging",
+        "en": "objects fire and security",
+        "de": "objects fire and security",
+        "fr": "objects fire and security"
+      },
+      "about": "Generic objects of usual Dutch sizes: one at LOD 200 per kind and its usual sizes at LOD 300.",
+      "source": "Open BIM Suite (OpenAEC Foundation), LGPL-3.0-or-later",
+      "counts": {
+        "materials": 0,
+        "buildups": 0,
+        "linear_types": 0,
+        "system_types": 0,
+        "object_types": 29,
+        "drawing_sets": 0,
+        "view_templates": 0
+      },
+      "lod": [
+        3,
+        26,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "nl-objects-transport",
+      "file": "ifcx/nl-objects-transport.ifcx",
+      "names": {
+        "nl": "objecten transport",
+        "en": "objects transport",
+        "de": "objects transport",
+        "fr": "objects transport"
+      },
+      "about": "Generic objects of usual Dutch sizes: one at LOD 200 per kind and its usual sizes at LOD 300.",
+      "source": "Open BIM Suite (OpenAEC Foundation), LGPL-3.0-or-later",
+      "counts": {
+        "materials": 0,
+        "buildups": 0,
+        "linear_types": 0,
+        "system_types": 0,
+        "object_types": 18,
+        "drawing_sets": 0,
+        "view_templates": 0
+      },
+      "lod": [
+        6,
+        12,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "nl-objects-ventilation",
+      "file": "ifcx/nl-objects-ventilation.ifcx",
+      "names": {
+        "nl": "objecten ventilatie",
+        "en": "objects ventilation",
+        "de": "objects ventilation",
+        "fr": "objects ventilation"
+      },
+      "about": "Generic objects of usual Dutch sizes: one at LOD 200 per kind and its usual sizes at LOD 300.",
+      "source": "Open BIM Suite (OpenAEC Foundation), LGPL-3.0-or-later",
+      "counts": {
+        "materials": 0,
+        "buildups": 0,
+        "linear_types": 0,
+        "system_types": 0,
+        "object_types": 91,
+        "drawing_sets": 0,
+        "view_templates": 0
+      },
+      "lod": [
+        18,
+        73,
+        0,
+        0
+      ]
+    }
+  ]
+}
