@@ -1,0 +1,23 @@
+[
+  {"id": "nl.cable-tray.kabelgoot-60x60", "role": "cable-tray", "material": "galvanised-steel", "profile": {"kind": "rectangle", "width": 0.06, "depth": 0.06}, "name": "kabelgoot 60x60"},
+  {"id": "nl.cable-tray.kabelgoot-100x60", "role": "cable-tray", "material": "galvanised-steel", "profile": {"kind": "rectangle", "width": 0.1, "depth": 0.06}, "name": "kabelgoot 100x60"},
+  {"id": "nl.cable-tray.kabelgoot-150x60", "role": "cable-tray", "material": "galvanised-steel", "profile": {"kind": "rectangle", "width": 0.15, "depth": 0.06}, "name": "kabelgoot 150x60"},
+  {"id": "nl.cable-tray.kabelgoot-200x60", "role": "cable-tray", "material": "galvanised-steel", "profile": {"kind": "rectangle", "width": 0.2, "depth": 0.06}, "name": "kabelgoot 200x60"},
+  {"id": "nl.cable-tray.kabelgoot-300x60", "role": "cable-tray", "material": "galvanised-steel", "profile": {"kind": "rectangle", "width": 0.3, "depth": 0.06}, "name": "kabelgoot 300x60"},
+  {"id": "nl.cable-tray.kabelgoot-400x60", "role": "cable-tray", "material": "galvanised-steel", "profile": {"kind": "rectangle", "width": 0.4, "depth": 0.06}, "name": "kabelgoot 400x60"},
+  {"id": "nl.cable-tray.kabelgoot-500x60", "role": "cable-tray", "material": "galvanised-steel", "profile": {"kind": "rectangle", "width": 0.5, "depth": 0.06}, "name": "kabelgoot 500x60"},
+  {"id": "nl.cable-tray.kabelgoot-600x60", "role": "cable-tray", "material": "galvanised-steel", "profile": {"kind": "rectangle", "width": 0.6, "depth": 0.06}, "name": "kabelgoot 600x60"},
+  {"id": "nl.cable-tray.kabelladder-100x100", "role": "cable-tray", "material": "galvanised-steel", "profile": {"kind": "rectangle", "width": 0.1, "depth": 0.1}, "name": "kabelladder 100x100"},
+  {"id": "nl.cable-tray.kabelladder-200x100", "role": "cable-tray", "material": "galvanised-steel", "profile": {"kind": "rectangle", "width": 0.2, "depth": 0.1}, "name": "kabelladder 200x100"},
+  {"id": "nl.cable-tray.kabelladder-300x100", "role": "cable-tray", "material": "galvanised-steel", "profile": {"kind": "rectangle", "width": 0.3, "depth": 0.1}, "name": "kabelladder 300x100"},
+  {"id": "nl.cable-tray.kabelladder-400x100", "role": "cable-tray", "material": "galvanised-steel", "profile": {"kind": "rectangle", "width": 0.4, "depth": 0.1}, "name": "kabelladder 400x100"},
+  {"id": "nl.cable-tray.kabelladder-500x100", "role": "cable-tray", "material": "galvanised-steel", "profile": {"kind": "rectangle", "width": 0.5, "depth": 0.1}, "name": "kabelladder 500x100"},
+  {"id": "nl.cable-tray.kabelladder-600x100", "role": "cable-tray", "material": "galvanised-steel", "profile": {"kind": "rectangle", "width": 0.6, "depth": 0.1}, "name": "kabelladder 600x100"},
+  {"id": "nl.cable-tray.wandgoot-60x40", "role": "cable-tray", "material": "pvc", "profile": {"kind": "rectangle", "width": 0.06, "depth": 0.04}, "name": "wandgoot 60x40"},
+  {"id": "nl.cable-tray.wandgoot-90x55", "role": "cable-tray", "material": "pvc", "profile": {"kind": "rectangle", "width": 0.09, "depth": 0.055}, "name": "wandgoot 90x55"},
+  {"id": "nl.cable-tray.wandgoot-130x60", "role": "cable-tray", "material": "pvc", "profile": {"kind": "rectangle", "width": 0.13, "depth": 0.06}, "name": "wandgoot 130x60"},
+  {"id": "nl.cable-tray.wandgoot-170x60", "role": "cable-tray", "material": "pvc", "profile": {"kind": "rectangle", "width": 0.17, "depth": 0.06}, "name": "wandgoot 170x60"},
+  {"id": "nl.cable-tray.vloergoot-200x38", "role": "cable-tray", "material": "galvanised-steel", "profile": {"kind": "rectangle", "width": 0.2, "depth": 0.038}, "name": "vloergoot 200x38"},
+  {"id": "nl.cable-tray.vloergoot-250x38", "role": "cable-tray", "material": "galvanised-steel", "profile": {"kind": "rectangle", "width": 0.25, "depth": 0.038}, "name": "vloergoot 250x38"},
+  {"id": "nl.cable-tray.vloergoot-350x48", "role": "cable-tray", "material": "galvanised-steel", "profile": {"kind": "rectangle", "width": 0.35, "depth": 0.048}, "name": "vloergoot 350x48"}
+]

@@ -270,6 +270,195 @@
         0,
         0
       ]
+    },
+    {
+      "key": "nl-types-cable-trays",
+      "file": "ifcx/nl-types-cable-trays.ifcx",
+      "names": {
+        "nl": "kabelgoten",
+        "en": "cable trays",
+        "de": "cable trays",
+        "fr": "cable trays"
+      },
+      "about": "Linear types of usual Dutch sizes: steel profiles of the steel table, timber, concrete, pipes, ducts and trays.",
+      "source": "Open BIM Suite (OpenAEC Foundation), LGPL-3.0-or-later",
+      "counts": {
+        "materials": 2,
+        "buildups": 0,
+        "linear_types": 21,
+        "system_types": 0,
+        "object_types": 0,
+        "drawing_sets": 0,
+        "view_templates": 0
+      },
+      "lod": [
+        0,
+        21,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "nl-types-ducts",
+      "file": "ifcx/nl-types-ducts.ifcx",
+      "names": {
+        "nl": "luchtkanalen",
+        "en": "ducts",
+        "de": "ducts",
+        "fr": "ducts"
+      },
+      "about": "Linear types of usual Dutch sizes: steel profiles of the steel table, timber, concrete, pipes, ducts and trays.",
+      "source": "Open BIM Suite (OpenAEC Foundation), LGPL-3.0-or-later",
+      "counts": {
+        "materials": 3,
+        "buildups": 0,
+        "linear_types": 31,
+        "system_types": 0,
+        "object_types": 0,
+        "drawing_sets": 0,
+        "view_templates": 0
+      },
+      "lod": [
+        2,
+        29,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "nl-types-facade",
+      "file": "ifcx/nl-types-facade.ifcx",
+      "names": {
+        "nl": "gevel: stijlen en regels",
+        "en": "facade: mullions",
+        "de": "facade: mullions",
+        "fr": "facade: mullions"
+      },
+      "about": "Linear types of usual Dutch sizes: steel profiles of the steel table, timber, concrete, pipes, ducts and trays.",
+      "source": "Open BIM Suite (OpenAEC Foundation), LGPL-3.0-or-later",
+      "counts": {
+        "materials": 3,
+        "buildups": 0,
+        "linear_types": 16,
+        "system_types": 0,
+        "object_types": 0,
+        "drawing_sets": 0,
+        "view_templates": 0
+      },
+      "lod": [
+        0,
+        16,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "nl-types-foundation",
+      "file": "ifcx/nl-types-foundation.ifcx",
+      "names": {
+        "nl": "fundering: palen en balken",
+        "en": "foundation: piles and beams",
+        "de": "foundation: piles and beams",
+        "fr": "foundation: piles and beams"
+      },
+      "about": "Linear types of usual Dutch sizes: steel profiles of the steel table, timber, concrete, pipes, ducts and trays.",
+      "source": "Open BIM Suite (OpenAEC Foundation), LGPL-3.0-or-later",
+      "counts": {
+        "materials": 4,
+        "buildups": 0,
+        "linear_types": 35,
+        "system_types": 0,
+        "object_types": 0,
+        "drawing_sets": 0,
+        "view_templates": 0
+      },
+      "lod": [
+        0,
+        35,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "nl-types-pipes",
+      "file": "ifcx/nl-types-pipes.ifcx",
+      "names": {
+        "nl": "leidingen",
+        "en": "pipes",
+        "de": "pipes",
+        "fr": "pipes"
+      },
+      "about": "Linear types of usual Dutch sizes: steel profiles of the steel table, timber, concrete, pipes, ducts and trays.",
+      "source": "Open BIM Suite (OpenAEC Foundation), LGPL-3.0-or-later",
+      "counts": {
+        "materials": 5,
+        "buildups": 0,
+        "linear_types": 54,
+        "system_types": 0,
+        "object_types": 0,
+        "drawing_sets": 0,
+        "view_templates": 0
+      },
+      "lod": [
+        15,
+        39,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "nl-types-structure",
+      "file": "ifcx/nl-types-structure.ifcx",
+      "names": {
+        "nl": "constructie: balken en kolommen",
+        "en": "structure: beams and columns",
+        "de": "structure: beams and columns",
+        "fr": "structure: beams and columns"
+      },
+      "about": "Linear types of usual Dutch sizes: steel profiles of the steel table, timber, concrete, pipes, ducts and trays.",
+      "source": "Open BIM Suite (OpenAEC Foundation), LGPL-3.0-or-later",
+      "counts": {
+        "materials": 5,
+        "buildups": 0,
+        "linear_types": 168,
+        "system_types": 0,
+        "object_types": 0,
+        "drawing_sets": 0,
+        "view_templates": 0
+      },
+      "lod": [
+        0,
+        168,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "nl-types-timber",
+      "file": "ifcx/nl-types-timber.ifcx",
+      "names": {
+        "nl": "hout: regels, latten, kozijnhout en plinten",
+        "en": "timber: studs, battens, frame sections and skirtings",
+        "de": "timber: studs, battens, frame sections and skirtings",
+        "fr": "timber: studs, battens, frame sections and skirtings"
+      },
+      "about": "Linear types of usual Dutch sizes: steel profiles of the steel table, timber, concrete, pipes, ducts and trays.",
+      "source": "Open BIM Suite (OpenAEC Foundation), LGPL-3.0-or-later",
+      "counts": {
+        "materials": 4,
+        "buildups": 0,
+        "linear_types": 37,
+        "system_types": 0,
+        "object_types": 0,
+        "drawing_sets": 0,
+        "view_templates": 0
+      },
+      "lod": [
+        0,
+        37,
+        0,
+        0
+      ]
     }
   ]
 }

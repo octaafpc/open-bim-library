@@ -16,9 +16,10 @@ de bibliotheken uit de index en haalt alleen op wat gevraagd wordt.
 | `ifcx/general.ifcx` | the library every project starts with: materials, build-ups, linear and system types, a generic object of each group, NL-SfB codes, drawing sets and view templates |
 | `ifcx/nl.ifcx` | Dutch materials and types: the INB template, the materials, timber sizes, concrete sections, walls and floors of Project Ocondat, and usual Dutch layered build-ups |
 | `ifcx/nl-objects-<trade>.ifcx` | generic objects of usual Dutch sizes, a file per trade (below) |
+| `ifcx/nl-types-<what>.ifcx` | linear types of usual Dutch sizes, a file per kind (below) |
 | `ifcx/house-style-openaec.ifcx` | the starter house style: colours, typefaces, sheet formats, title block, dimensions |
-| `objects/<trade>.json` | the object catalogues the object files are built from |
-| `tools/generate_objects.py` | writes the object catalogues |
+| `objects/<trade>.json`, `types/<what>.json` | the catalogues the object and type files are built from |
+| `tools/generate_objects.py`, `tools/generate_types.py` | write the catalogues |
 
 ## Objects
 
@@ -40,6 +41,23 @@ An object type has a group, names in Dutch, English, German and French, a size (
 height), the height it is mounted at, its IFC class and predefined type, its NL-SfB code and
 its level of development. The suite draws an object as a box of its size; a door or a window
 cuts an opening in the wall it stands in.
+
+## Linear types
+
+362 linear types in seven files. Steel beams and columns are profiles of the suite's steel
+table, taken by their designation.
+
+| File | Holds | Types |
+|---|---|---|
+| structure | steel beams and columns (IPE, HEA, HEB, UPN, SHS, CHS, angles as lintels), glued laminated and sawn timber beams, concrete beams, columns and lintels | 168 |
+| foundation | precast driven piles, cast-in-place and screw piles, steel tube piles, timber piles, foundation beams | 35 |
+| timber | SLS studs, battens, frame sections, skirtings | 37 |
+| facade | mullions of aluminium, steel and timber | 16 |
+| pipes | PVC drainage and rainwater pipes, zinc downpipes, copper, multilayer, steel and PE pipes, conduit | 54 |
+| ducts | spiral ducts, rectangular ducts, cast-in ducts, flexible hoses | 31 |
+| cable-trays | cable trays and ladders, wall and floor trunking | 21 |
+
+A pipe or a hose of no particular material is of the generic material and so LOD 200.
 
 ### Levels of development
 
@@ -73,10 +91,14 @@ python3 tools/generate_objects.py
 ```
 
 ```bash
+python3 tools/generate_types.py
+```
+
+```bash
 cargo run -p bim-library --example build_library -- PATH/TO/open-bim-library/objects PATH/TO/open-bim-library 2026-11-19T00:00:00Z
 ```
 
-The second command is run in a checkout of Open BIM Suite.
+The last command is run in a checkout of Open BIM Suite.
 
 ## Licence
 

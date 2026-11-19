@@ -1,0 +1,18 @@
+[
+  {"id": "nl.mullion.aluminium-stijl-50x60", "role": "mullion", "material": "aluminium", "profile": {"kind": "rhs", "h": 0.06, "b": 0.05, "t": 0.0025, "r_out": 0.0, "r_in": 0.0}, "name": "aluminium stijl 50x60"},
+  {"id": "nl.mullion.aluminium-stijl-50x100", "role": "mullion", "material": "aluminium", "profile": {"kind": "rhs", "h": 0.1, "b": 0.05, "t": 0.0025, "r_out": 0.0, "r_in": 0.0}, "name": "aluminium stijl 50x100"},
+  {"id": "nl.mullion.aluminium-stijl-50x125", "role": "mullion", "material": "aluminium", "profile": {"kind": "rhs", "h": 0.125, "b": 0.05, "t": 0.0025, "r_out": 0.0, "r_in": 0.0}, "name": "aluminium stijl 50x125"},
+  {"id": "nl.mullion.aluminium-stijl-50x150", "role": "mullion", "material": "aluminium", "profile": {"kind": "rhs", "h": 0.15, "b": 0.05, "t": 0.0025, "r_out": 0.0, "r_in": 0.0}, "name": "aluminium stijl 50x150"},
+  {"id": "nl.mullion.aluminium-stijl-50x175", "role": "mullion", "material": "aluminium", "profile": {"kind": "rhs", "h": 0.175, "b": 0.05, "t": 0.0025, "r_out": 0.0, "r_in": 0.0}, "name": "aluminium stijl 50x175"},
+  {"id": "nl.mullion.aluminium-stijl-60x150", "role": "mullion", "material": "aluminium", "profile": {"kind": "rhs", "h": 0.15, "b": 0.06, "t": 0.0025, "r_out": 0.0, "r_in": 0.0}, "name": "aluminium stijl 60x150"},
+  {"id": "nl.mullion.aluminium-stijl-60x180", "role": "mullion", "material": "aluminium", "profile": {"kind": "rhs", "h": 0.18, "b": 0.06, "t": 0.0025, "r_out": 0.0, "r_in": 0.0}, "name": "aluminium stijl 60x180"},
+  {"id": "nl.mullion.aluminium-stijl-60x225", "role": "mullion", "material": "aluminium", "profile": {"kind": "rhs", "h": 0.225, "b": 0.06, "t": 0.0025, "r_out": 0.0, "r_in": 0.0}, "name": "aluminium stijl 60x225"},
+  {"id": "nl.mullion.stalen-stijl-50x80", "role": "mullion", "material": "steel", "profile": {"kind": "rhs", "h": 0.08, "b": 0.05, "t": 0.003, "r_out": 0.0, "r_in": 0.0}, "name": "stalen stijl 50x80"},
+  {"id": "nl.mullion.stalen-stijl-50x120", "role": "mullion", "material": "steel", "profile": {"kind": "rhs", "h": 0.12, "b": 0.05, "t": 0.003, "r_out": 0.0, "r_in": 0.0}, "name": "stalen stijl 50x120"},
+  {"id": "nl.mullion.stalen-stijl-60x140", "role": "mullion", "material": "steel", "profile": {"kind": "rhs", "h": 0.14, "b": 0.06, "t": 0.003, "r_out": 0.0, "r_in": 0.0}, "name": "stalen stijl 60x140"},
+  {"id": "nl.mullion.stalen-stijl-60x180", "role": "mullion", "material": "steel", "profile": {"kind": "rhs", "h": 0.18, "b": 0.06, "t": 0.003, "r_out": 0.0, "r_in": 0.0}, "name": "stalen stijl 60x180"},
+  {"id": "nl.mullion.houten-stijl-60x120", "role": "mullion", "material": "timber", "profile": {"kind": "rectangle", "width": 0.06, "depth": 0.12}, "name": "houten stijl 60x120"},
+  {"id": "nl.mullion.houten-stijl-60x160", "role": "mullion", "material": "timber", "profile": {"kind": "rectangle", "width": 0.06, "depth": 0.16}, "name": "houten stijl 60x160"},
+  {"id": "nl.mullion.houten-stijl-80x200", "role": "mullion", "material": "timber", "profile": {"kind": "rectangle", "width": 0.08, "depth": 0.2}, "name": "houten stijl 80x200"},
+  {"id": "nl.mullion.houten-stijl-80x240", "role": "mullion", "material": "timber", "profile": {"kind": "rectangle", "width": 0.08, "depth": 0.24}, "name": "houten stijl 80x240"}
+]
